@@ -1,0 +1,360 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* header-style */
+.line {
+    width: 18px;
+    height: 5px;
+
+    opacity: 0px;
+    background: #000;
+    margin-left: auto;
+
+
+}
+.nav-bar-border{
+    box-shadow: 0px 4px 35px 0px #00000014;
+}
+.logo-width{
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+.line2 {
+    width: 100%;
+    height: 5px;
+
+    background-color: #000;
+    margin-right: 20px;
+    margin: 3px 0px;
+}
+
+.line3 {
+    width: 18px;
+    height: 5px;
+    background-color: #000;
+    margin: 2px 0;
+    margin-right: 20px;
+}
+
+.toogle-btn {
+    height: 23px;
+    width: 40px;
+    border-radius: 42px;
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    position: relative;
+    display: flex;
+}
+
+.toogle-btn .button {
+    width: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: all 20ms linear;
+}
+
+#toggle:checked~label.toogle-btn {
+    justify-content: end;
+}
+
+.nft {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-36);
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: #000;
+}
+
+.wallet,
+.feed {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #000;
+    opacity: 60%;
+    text-decoration: none;
+
+}
+
+.gap-59 {
+    gap: 59px;
+}
+
+.sarch {
+    width: 315px;
+    height: 43px;
+    top: 26px;
+    left: 1158px;
+    padding: 8px 24px 8px 24px;
+    gap: 10px;
+    border-radius: 25.5px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #00000033;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #000;
+    padding-left: 24px;
+}
+
+/* hero-section */
+
+.col-8 {
+    border: 1px solid #00000033;
+    margin-bottom: 31px;
+
+}
+
+.comment {
+    margin-left: 21px;
+}
+
+.input-text {
+    max-width: 891px;
+    width: 100%;
+    border: 1px solid #00000033;
+    border-radius: 22.5px;
+}
+
+.post {
+    background-color: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--primary);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--secondary);
+
+}
+
+.input-comment {
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--primary);
+    padding-left: 7px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.p-18 {
+    padding: 18px;
+}
+
+.profile-name {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--primary);
+}
+
+.bg-color {
+    background-color: var(--null);
+}
+
+.max-width-889 {
+    max-width: 889px;
+    width: 100%;
+    border: 1px solid #0000001A
+}
+
+.follow-box {
+    max-width: 329px;
+    width: 100%;
+}
+
+.follow-text {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    color: black;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.fill {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.most-like {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--primary);
+
+
+}
+
+.logo-profile {
+    margin-bottom: 16px;
+}
+
+.mt-39 {
+    margin-top: 39px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.ml-17 {
+    margin-left: 17px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.most-liked {
+    width: 88px;
+    height: 28px;
+    top: 91px;
+    left: 16px;
+    padding: 5px 12px 5px 12px;
+    gap: 10px;
+    border-radius: 25.5px;
+    opacity: 0px;
+    background: #DFDFDF;
+    color: #00000099;
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-12);
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    border: none;
+}
+
+.recently-liked {
+    width: 134px;
+    height: 28px;
+    top: 91px;
+    left: 114px;
+    padding: 5px 12px 5px 12px;
+    gap: 10px;
+    border-radius: 25.5px;
+    opacity: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    background: #DFDFDF;
+    color: #00000099;
+    border: none;
+}
+.recently-liked:hover{
+    background: #000000;
+    color: #ffffff;
+}
+.most-liked:hover {
+    background: #000000;
+    color: #ffffff;
+}
+.likers{
+    padding-top: 15px;
+}
+/* header-media-quary */
+@media(max-width:992px) {
+    .label {
+        height: 60px;
+        width: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 3;
+        position: relative;
+        margin-top: 17px;
+        margin-bottom: 18px;
+    }
+    .menu-list {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        left: -100%;
+        top: 0;
+        transition: all 300ms linear;
+        background-color: #fff;
+        position: fixed;
+        z-index: 2;
+    }
+    input:checked~ul.menu-list {
+        left: 0;
+    }
+    .w-100-lg {
+        width: 100%;
+    }
+    .follow-box {
+        flex-direction: row;
+        display: flex;
+        text-align: center;
+        gap: 8px;
+   }
+
+    .user-follow {
+        flex-direction: column;
+    }
+
+    .md-follow-box {
+        border: 1px solid #00000033;
+        min-width: 119px;
+        height: 129px;
+        gap: 18px;
+    }
+
+    .radio-btns {
+        display: none;
+    }
+
+    .liked-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .nft {
+        font-size: var(--fs-18);
+    }
+
+    .logo-width {
+        width: 50px;
+    }
+    .follow-box{
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+              
+    }
+
+}
